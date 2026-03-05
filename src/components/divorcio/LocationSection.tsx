@@ -1,19 +1,19 @@
 import { MapPin, Star } from "lucide-react";
 
 const reviews = [
-  {
-    name: "Alejandra V.",
-    text: "Excelentes profesionales, me ayudaron con todo el trámite de divorcio de forma impecable. Muy recomendables.",
-  },
-  {
-    name: "Fernando T.",
-    text: "Atención de primera. Respondieron todas mis dudas y el proceso fue mucho más rápido de lo que imaginé.",
-  },
-  {
-    name: "Paula S.",
-    text: "Muy buena experiencia. Transparentes con los costos y siempre disponibles. Los recomiendo sin dudarlo.",
-  },
-];
+{
+  name: "Alejandra V.",
+  text: "Excelentes profesionales, me ayudaron con todo el trámite de divorcio de forma impecable. Muy recomendables."
+},
+{
+  name: "Fernando T.",
+  text: "Atención de primera. Respondieron todas mis dudas y el proceso fue mucho más rápido de lo que imaginé."
+},
+{
+  name: "Paula S.",
+  text: "Muy buena experiencia. Transparentes con los costos y siempre disponibles. Los recomiendo sin dudarlo."
+}];
+
 
 const LocationSection = () => {
   return (
@@ -26,12 +26,12 @@ const LocationSection = () => {
 
         <div className="flex items-center justify-center gap-2 mb-12">
           <div className="flex gap-0.5">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className="h-4 w-4 fill-gold text-gold" />
-            ))}
+            {[...Array(5)].map((_, i) =>
+            <Star key={i} className="h-4 w-4 fill-gold text-gold" />
+            )}
           </div>
-          <span className="font-body text-sm text-muted-foreground">
-            Más de 50 reseñas positivas en Google Maps
+          <span className="font-body text-sm text-muted-foreground">Más de 100 reseñas positivas en Google Maps
+
           </span>
         </div>
 
@@ -46,8 +46,8 @@ const LocationSection = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Ubicación NR Abogados"
-              />
+                title="Ubicación NR Abogados" />
+              
             </div>
             <div className="flex items-center gap-2 mt-4">
               <MapPin className="h-5 w-5 text-gold flex-shrink-0" />
@@ -61,22 +61,22 @@ const LocationSection = () => {
             <h3 className="font-heading text-lg font-bold text-foreground mb-4">
               Reseñas destacadas
             </h3>
-            {reviews.map((r) => (
-              <div key={r.name} className="p-5 rounded-lg border border-border bg-card">
+            {reviews.map((r) =>
+            <div key={r.name} className="p-5 rounded-lg border border-border bg-card">
                 <div className="flex gap-1 mb-2">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="h-3.5 w-3.5 fill-gold text-gold" />
-                  ))}
+                  {[...Array(5)].map((_, i) =>
+                <Star key={i} className="h-3.5 w-3.5 fill-gold text-gold" />
+                )}
                 </div>
                 <p className="font-body text-sm text-muted-foreground italic mb-2">"{r.text}"</p>
                 <span className="font-heading text-sm font-semibold text-foreground">{r.name}</span>
               </div>
-            ))}
+            )}
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default LocationSection;

@@ -8,8 +8,8 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
+        style={{ backgroundImage: `url(${heroImage})` }} />
+      
       <div className="absolute inset-0 bg-[#1a1f2e]/80" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
@@ -33,8 +33,8 @@ const HeroSection = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-lg md:text-xl text-white/70 font-body max-w-2xl mx-auto mb-10 leading-relaxed">
-          Tramitamos tu divorcio de común acuerdo de forma rápida, digital y sin complicaciones
+        <p className="text-lg md:text-xl text-white/70 font-body max-w-2xl mx-auto mb-10 leading-relaxed">Tramitamos tu divorcio de común acuerdo de forma rápida y sin complicaciones
+
         </p>
 
         {/* CTA */}
@@ -42,15 +42,15 @@ const HeroSection = () => {
           variant="gold"
           size="lg"
           className="text-sm tracking-[0.15em] px-12 py-6"
-          asChild
-        >
+          asChild>
+          
           <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
             REALIZAR CONSULTA
           </a>
         </Button>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
