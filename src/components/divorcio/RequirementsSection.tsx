@@ -20,7 +20,7 @@ const requirements = [
 
 const RequirementsSection = () => {
   return (
-    <section className="py-20 md:py-28 bg-secondary">
+    <section id="requisitos" className="py-20 md:py-28 bg-secondary">
       <div className="container max-w-6xl mx-auto px-4">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
           Documentación Requerida
