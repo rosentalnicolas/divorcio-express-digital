@@ -4,6 +4,7 @@ import ValueProposition from "@/components/divorcio/ValueProposition";
 import DivorceTypesSection from "@/components/divorcio/DivorceTypesSection";
 import RequirementsSection from "@/components/divorcio/RequirementsSection";
 import IntegralService from "@/components/divorcio/IntegralService";
+import StatsSection from "@/components/divorcio/StatsSection";
 import PricingSection from "@/components/divorcio/PricingSection";
 import CTABanner from "@/components/divorcio/CTABanner";
 import TestimonialsSection from "@/components/divorcio/TestimonialsSection";
@@ -22,6 +23,7 @@ const Index = () => {
       <DivorceTypesSection />
       <RequirementsSection />
       <IntegralService />
+      <StatsSection />
       <PricingSection />
       <CTABanner />
       <TestimonialsSection />
