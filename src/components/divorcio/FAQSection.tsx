@@ -35,7 +35,7 @@ const faqs = [
 
 const FAQSection = () => {
   return (
-    <section className="py-20 md:py-28 bg-background">
+    <section id="faq" className="py-20 md:py-28 bg-background">
       <div className="container max-w-3xl mx-auto px-4">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
           Preguntas Frecuentes
