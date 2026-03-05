@@ -8,11 +8,11 @@ const plans = [
     title: "Divorcio CABA",
     subtitle: "Capital Federal",
     price: "$125.000",
-    installments: "12 cuotas fijas de $10.417",
+    installments: "Desde $125.000 por cada cuota en planes de pago.",
     features: [
       "Divorcio de común acuerdo",
       "Propuesta reguladora incluida",
-      "Tramitación 100% digital",
+      "Tramitación presencial o a distancia",
       "Seguimiento personalizado",
       "Sentencia en 30-60 días",
     ],
@@ -26,7 +26,7 @@ const plans = [
     features: [
       "Divorcio de común acuerdo o unilateral",
       "Propuesta reguladora incluida",
-      "Gestión presencial y digital",
+      "Gestión presencial o a distancia",
       "Seguimiento personalizado",
       "Plazo según jurisdicción",
     ],

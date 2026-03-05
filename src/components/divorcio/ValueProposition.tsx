@@ -3,7 +3,7 @@ import { Monitor, Zap, CreditCard } from "lucide-react";
 const cards = [
   {
     icon: Monitor,
-    title: "100% Digital",
+    title: "Presencial o Digital",
     description: "Gestionamos todo a distancia, sin que tengas que moverte de tu casa.",
   },
   {
@@ -14,7 +14,7 @@ const cards = [
   {
     icon: CreditCard,
     title: "Costo Fijo y Cuotas",
-    description: "Honorarios transparentes y facilidades de pago adaptadas a vos.",
+    description: "Honorarios transparentes y facilidades de pago adaptadas.",
   },
 ];
 
